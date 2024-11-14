@@ -1,0 +1,111 @@
+{
+  "id": "mad-deathhouse",
+  "title": "The MAD Cartographer | Death House | Free Pack",
+  "description": "<p>The FREE Death House module from The MAD Cartographer</p>",
+  "version": "12.0.4",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "The MAD Cartographer",
+      "email": "info@themadcartographer.com",
+      "url": "https://patreon.com/themadcartographer",
+      "discord": "Harrison#3229",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "betterroofs",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "token-attacher",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "mad-deathhouse-maps",
+      "label": "TMC | MAD | Death House",
+      "path": "packs/mad-deathhouse-maps",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-deathhouse-journals",
+      "label": "TMC | MAD | Death House",
+      "path": "packs/mad-deathhouse-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mad-deathhouse-actors",
+      "label": "TMC | MAD | Death House",
+      "path": "packs/mad-deathhouse-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "esmodules": [
+    "scripts/compendium-import.js",
+    "scripts/init.js"
+  ],
+  "url": "https://www.patreon.com/themadcartographer",
+  "manifest": "https://themadcartographer.com/downloads/freebies/DeathHouse/module.json",
+  "download": "https://themadcartographer.com/downloads/freebies/DeathHouse/mad-deathhouse.zip"
+}
